@@ -1,0 +1,62 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>TwitchTV Status Viewer</title>
+        <meta name="description" content="TwitchTV Status Viewer for free code camp">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="title text-center">
+    <h1><i class="fa fa-free-code-camp"></i> Wikipedia Search</h1>
+    </div>
+    
+    <div id="search-input">
+            <div class="input-group col-md-6 col-md-offset-3">
+                <input type="text" class="search-query form-control" placeholder="Search" />
+                <span class="input-group-btn">
+                    <button class="btn btn-search" type="button" disabled>
+                       <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+      <div class="random-link text-center">
+      <p><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Want a random Wikipedia article?</a></p>
+      </div>
+        </div>
+  <div class="container">
+    <p style="display:none" class="results-for">Search results for <strong></strong></p>
+    <div class="search-output" style="display:none">
+<!--     <h3><a href="#" class="wiki-title" target="_blank">Header</a></h3>
+      <a href="#" target="_blank" class="wiki-link">link to wikipedia</a>
+     <p class="wiki-desc">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>  -->
+    </div>
+    
+    <div class="home">
+      <h4>Explore. Search for any topic in Wikipedia.</h4>
+    <img src="https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-504832.jpg" alt="home" />
+    </div>
+    <div class="nothing"  style="display:none">
+      <h4>Sorry, no topics matched your criteria, please try and search again.</h4>
+    <img src="https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-180429.jpg" alt="home" />
+    </div>
+  </div>  
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

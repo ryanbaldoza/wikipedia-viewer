@@ -1,0 +1,102 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#search-input {
+  margin:20px 10px 30px 10px;
+}
+
+.random-link {
+  margin-top:5px;
+}
+.btn-search:disabled {
+  opacity: 1;
+  cursor: default;
+}
+.btn-search {
+  background-color: #212121;
+
+}
+/* .btn-search:hover {
+  background-color: #101010;
+} */
+
+.fa-search{
+  color: #fff;
+}
+
+h1 {
+  margin: 30px 0;
+}
+
+h3{
+  margin:5px 0;
+}
+
+.search-output {
+  border: 2px solid #212121;
+  margin-bottom:20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-query {
+  border: 2px solid #212121;
+}
+
+.home {
+  position:relative;
+  width: 100%;
+  height: 100%;
+}
+
+.home img {
+  width:100%;
+  height:100vh;
+  object-fit:cover;
+}
+.home h4 {
+  text-align:center;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 15%; left: 0; bottom: 0; right: 0;
+}
+
+.nothing {
+  position:relative;
+  width: 100%;
+  height: 100%;
+}
+
+.nothing img {
+  width:100%;
+  height:100vh;
+  object-fit:cover;
+}
+.nothing h4 {
+  text-align:center;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 25%; left: 0; bottom: 0; right: 0;
+}
+
+.delay-1 {
+animation-delay: .25s;
+}
+.delay-2 {
+animation-delay: .5s;
+}
+.delay-3 {
+animation-delay: .75s;
+}
+.delay-4 {
+animation-delay: 1s;
+}
+
+.wiki-link {
+ overflow-wrap: break-word;
+  word-wrap: break-word;
+  
+}
