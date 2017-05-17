@@ -47,7 +47,7 @@ animateCss: function (animationName) {
           
             if(nothing==true){
               nothing = false;
-              $(".nothing").show().animateCss("fadeInRight").addClass(".delay-1");
+              $(".nothing").show().animateCss("fadeInUp").addClass(".delay-1");
               flag = true;
               out = false;
               $(".search-output").hide(); 
@@ -62,7 +62,7 @@ animateCss: function (animationName) {
             $(".home").hide();
             $(".nothing").hide()
             $(".results-for").show();
-            $(".search-output").show().animateCss("fadeInRight").addClass(".delay-1");
+            $(".search-output").show().animateCss("fadeInUp");
           }
       } else if (!searchQuery) {
         $(".results-for").hide();
@@ -73,7 +73,7 @@ animateCss: function (animationName) {
          
           $(".search-output").hide();
           $(".nothing").hide();
-          $(".home").show().animateCss("fadeInRight").addClass(".delay-1");
+          $(".home").show().animateCss("fadeInUp").addClass(".delay-1");
         }
         
      } 
